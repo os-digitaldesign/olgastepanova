@@ -1,0 +1,131 @@
+li {
+    list-style: none;
+    text-decoration: none;
+    }
+    
+    .li-home {
+        list-style: none;
+        color: #62bcfa;
+        position: fixed;
+        top: 0;
+        text-align: center;
+        left: 5vw;
+        margin-top: 10px;
+        text-decoration: none;
+    }
+    
+    .li-about {
+        position: fixed;
+        transform: rotate(-90deg);
+        left: 0;
+        margin: auto;
+        color: #62bcfa;
+        text-decoration: none;
+        top: 50vh;
+    }
+    
+    .li-projects{
+        position: fixed;
+        transform: rotate(90deg);
+        right: 0;
+        margin: auto;
+        color: #62bcfa;
+        text-decoration: none;
+        top: 50vh;
+    }
+    
+    .li-contact{
+        position: fixed;
+        top: 0;
+        right: 5vw; 
+        margin-bottom: 10px;
+        transform: rotate(0);
+        color: #62bcfa;
+        text-decoration: none;
+    }
+    .about-nav {
+        color: var(--darkred);
+    }
+
+
+
+
+
+
+    
+    /* Hamburger menu */
+header {
+        width: 100vw;
+        height: 0px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        background: yellow;
+    }
+span {
+   color: #a30b37; 
+}
+.menu-icon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #a30b37;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align:center;
+    }
+    
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    
+    }
+    
+    .sidenav a:hover{
+        color:#62bcfa;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .social-box {
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: auto;
+        height: 100px;
+        margin-top: 30px;
+    }
+   .sidenav a.active {
+    color: #62bcfa;
+    }
+
+/*    li a.active {
+        color: #61c0bf;
+    } */
+
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
