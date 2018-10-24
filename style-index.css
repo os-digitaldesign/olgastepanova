@@ -12,6 +12,8 @@ box-sizing: border-box;
 }
 
 .intro-heading-container {
+  position: fixed;
+  z-index: 1;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -38,6 +40,7 @@ box-sizing: border-box;
         -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
                 animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+
  @-webkit-keyframes tracking-in-expand {
     0% {
       letter-spacing: -0.5em;
