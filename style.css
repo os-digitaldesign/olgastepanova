@@ -184,8 +184,18 @@ h3 {
     float: left;
 }
 
-.background-caption {
-    background-image: linear-gradient(to left, #a30b37 , #fccdd3);
+.bg-image {
+    /* background-image: linear-gradient(to left, #a30b37 , #fccdd3); */
+    background-image: url(assets/caption-image.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+bold {
+    font-style: italic;
+    opacity: 50%;
 }
 /* VISUAL progect */
 .caption-background {
@@ -803,7 +813,7 @@ em {
   .ux-design {
       background-image: url(assets/atm/home.png);
       background-position: center;
-      background-size: cover;
+      background-size: contain;
       background-repeat: no-repeat;
   }
 
