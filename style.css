@@ -307,7 +307,13 @@ color: #a30b37;
     margin-right: 10px;
     background-color: beige;
 }
-
+.mail {
+    color: black;
+}
+.conatct-detail {
+    color:#a30b37;
+    font-size: 20px;
+}
 form {
     /* #a30b37, #fccdd3 */
     background-color:#a30b37;
