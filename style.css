@@ -305,13 +305,12 @@ color: #a30b37;
     height: 100vh;
     float: right;
     margin-right: 10px;
-    background-color: beige;
 }
 .mail {
     color: black;
 }
 .conatct-detail {
-    color:#a30b37;
+    color:#dc567c !important;
     font-size: 20px;
 }
 form {
