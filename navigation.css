@@ -120,9 +120,14 @@ span {
     font-style: italic;
     }
 
-   svg .social-link path{
-        fill: white;
-    }
+  .logo {
+      display: block;
+      width: 7%;
+      padding-bottom: 20px;
+      margin: auto;
+  }
+
+
 
 /*    li a.active {
         color: #61c0bf;
