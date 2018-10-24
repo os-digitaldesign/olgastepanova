@@ -12,13 +12,12 @@ box-sizing: border-box;
 }
 
 .intro-heading-container {
-  z-index: 1;
   width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 15vh;
 }
 .intro-heading {
   display: flex;
@@ -28,17 +27,71 @@ box-sizing: border-box;
   align-items: center;
 
 }
+
 .intro-heading-text {
   /* background: -webkit-linear-gradient(#6534ff, #62bcfa); */
-  background: -webkit-linear-gradient(#a30b37, #fccdd3);
+  background: -webkit-linear-gradient(#6534ff, #62bcfa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 120px;
+  font-size: 100px;
   margin: 10px;
 
         -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
                 animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+.new-animation {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.noanimation {
+  background: -webkit-linear-gradient(#a30b37, #fccdd3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  margin: 10px;
+
+        -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.zero {
+  text-align: center;
+}
+.one, .two, .three {
+  background: -webkit-linear-gradient(#a30b37, #fccdd3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* PARALLAX SCROLLING */
+.intro-about-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box-two {
+background-image: url(assets/photography/architecture.jpg);
+background-attachment: fixed;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.box-three {
+  background: -webkit-linear-gradient(yellow, red);
+  /* background-image: url(assets/photography/landscape.jpg); */
+background-attachment: fixed;
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* .heading-one {
+  background-color: white;
+  width: 30vw;
+  margin: auto;
+} */
 
  @-webkit-keyframes tracking-in-expand {
     0% {
@@ -65,14 +118,17 @@ box-sizing: border-box;
     }
   }
 
-  .one {
+  .zero {
     animation-delay: 1s;
   }
+  .one {
+    animation-delay: 2s;
+  }
   .two{
-    animation-delay: 1.5s;
+    animation-delay: 2.5s;
   }
   .three {
-    animation-delay: 2s;
+    animation-delay: 3s;
   }
   
   footer {

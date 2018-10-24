@@ -159,7 +159,7 @@ h3 {
 }
 
 .project-assets-container {
-    width: 30vw;
+    width: 100vw;
     float: right;
     display: flex;
     display: -webkit-box;
@@ -168,14 +168,17 @@ h3 {
     display: -webkit-flex;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
-    border: 2px solid blue;
 }
 .progect-assets-image{
-    width: 30vw;
+    width: 40vw;
     height: 30%;
     display: block;
     margin: auto; 
     margin: 0;
+    margin-top: 20px;
+}
+.atm-im {
+    width: 30vw;
 }
 .full-image-container {
     width: 70vw;
@@ -580,9 +583,10 @@ a {
     background-position: center;
     background-size: cover;
     grid-column: 2/4;
-
     /* background-color: var(--color-1); */
 }
+
+
 
 .projects-visual:hover {
     
@@ -649,6 +653,8 @@ a {
     background-position: center;
     background-size: cover;
 }
+
+
 
 
 
@@ -838,13 +844,17 @@ em {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+  .landscape-photography {
+      background-image: url(assets/landscape/landscpae-1.jpg);
+  }
 
   /* .imageOne {
     grid-column: 1/6;;
     grid-template-rows: repeat(6);
     border: 2px solid blue;
   } */
+
+
 
 
 

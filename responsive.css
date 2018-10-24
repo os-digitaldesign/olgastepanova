@@ -21,6 +21,7 @@
 }
 .intro-heading-container {
     width: 100vw;
+    align-items: center;
 }
 .intro-heading-text {
     font-size: 80px;
@@ -75,4 +76,15 @@
 .progect-assets-image {
     padding-top: 10px;
 }
+.new-animation {
+    flex-direction: column;
+}
+.noanimation {
+font-size: 30px;
+}
+.zero {
+    font-size: 50px; 
+    margin-bottom: 50px;
+}
+
 }
