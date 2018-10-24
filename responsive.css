@@ -50,6 +50,7 @@
    -webkit-flex-flow: row wrap;
    justify-content: space-around;
     }
+
     .projects-container-item {
         width: 50vw;
     }
@@ -67,5 +68,11 @@
   }
 .projects-architecture {
     background-color: #6534ff;
+}
+.full-image-container {
+    display: none;
+}  
+.progect-assets-image {
+    padding-top: 10px;
 }
 }

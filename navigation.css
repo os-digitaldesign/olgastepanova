@@ -92,7 +92,6 @@ span {
         color: white;
         display: block;
         transition: 0.3s;
-    
     }
     
     .sidenav a:hover{
@@ -118,6 +117,11 @@ span {
     }
    .sidenav a.active {
     color: #62bcfa;
+    font-style: italic;
+    }
+
+   svg .social-link path{
+        fill: white;
     }
 
 /*    li a.active {
@@ -129,3 +133,5 @@ span {
       .sidenav {padding-top: 15px;}
       .sidenav a {font-size: 18px;}
     }
+
+

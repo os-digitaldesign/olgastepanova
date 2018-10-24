@@ -28,7 +28,8 @@ box-sizing: border-box;
 
 }
 .intro-heading-text {
-  background: -webkit-linear-gradient(#6534ff, #62bcfa);
+  /* background: -webkit-linear-gradient(#6534ff, #62bcfa); */
+  background: -webkit-linear-gradient(#a30b37, #fccdd3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 120px;
