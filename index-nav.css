@@ -118,7 +118,7 @@ a:hover{
   color: white;
   border-radius: 20px;
 
-  transition: 0.5s ease-in;
+  transition: -webkit-linear-gradient 3s ease;
 
   width: 30%;
   display: block;
@@ -126,9 +126,9 @@ a:hover{
   animation: animated-button;
   animation-duration: 3s;
   margin-top: -100px;
-  animation-delay: 3.5s;
+  /* animation-delay: 3.5s; */
 }
-/* @keyframes animated-button {
+@keyframes animated-button {
   from {
     margin-top: 100px;
   }
@@ -136,9 +136,8 @@ a:hover{
     margin-top: -100px;
     position: sticky;
   }
-} */
+} 
 .discover:hover {
-  transition: 0.5s ease-in;
   background: -webkit-linear-gradient(#a30b37, #fccdd3);
 }
 
