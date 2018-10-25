@@ -111,6 +111,37 @@ a:hover{
     margin: auto;
 }
 
+.discover {
+  background:  -webkit-linear-gradient(#6534ff, #62bcfa);
+  padding: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+
+  transition: 0.5s ease-in;
+
+  width: 30%;
+  display: block;
+  margin: auto;
+  animation: animated-button;
+  animation-duration: 3s;
+  margin-top: -100px;
+  animation-delay: 3.5s;
+}
+/* @keyframes animated-button {
+  from {
+    margin-top: 100px;
+  }
+  to {
+    margin-top: -100px;
+    position: sticky;
+  }
+} */
+.discover:hover {
+  transition: 0.5s ease-in;
+  background: -webkit-linear-gradient(#a30b37, #fccdd3);
+}
+
 
 
 /*    li a.active {
@@ -134,7 +165,9 @@ a:hover{
 a {
   padding: 5px;
 }
-
+.discover {
+  margin-top: -160px;
+}
 footer {
   position: fixed;
   bottom: 0;
