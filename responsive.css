@@ -56,16 +56,17 @@
         width: 50vw;
     }
     .projects-bw, .projects-visual, .projects-macro {
-        width: 100vw;  
+        width: 100vw; 
+        background-color:#a30b37; 
     }
     .projects-visual {
-        background-color: #6534ff;
+        
     }
   .projects-ux {
     background-color: #fccdd3;
   }
   .projects-macro {
-      background-color: #bbc4ef;
+      background-color: #62bcfa;
   }
 .projects-architecture {
     background-color: #6534ff;
@@ -86,5 +87,12 @@ font-size: 30px;
     font-size: 50px; 
     margin-bottom: 50px;
 }
+
+.project-title {
+    text-align: left;
+    margin: auto;
+    display: block
+}
+
 
 }

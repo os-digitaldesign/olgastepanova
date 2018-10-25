@@ -112,13 +112,14 @@ a:hover{
 }
 
 .discover {
-  background:  -webkit-linear-gradient(#6534ff, #62bcfa);
+  /* background:  -webkit-linear-gradient(#6534ff, #62bcfa); */
+  background-color: #6534ff;
   padding: 15px;
   text-align: center;
   color: white;
   border-radius: 20px;
 
-  transition: -webkit-linear-gradient 3s ease;
+  transition: 0.3s ease-in;
 
   width: 30%;
   display: block;
@@ -138,7 +139,8 @@ a:hover{
   }
 } 
 .discover:hover {
-  background: -webkit-linear-gradient(#a30b37, #fccdd3);
+  background-color: #a30b37;
+  /* background: -webkit-linear-gradient(#a30b37, #fccdd3); */
 }
 
 
@@ -147,12 +149,17 @@ a:hover{
       color: #61c0bf;
   } */
 
-  
+  @media (max-width: 375px) {
+    .discover {
+      width: 70vw;
+    }
+  }
   @media  (max-width: 580px){
  header {
    flex-direction: column;
    height: auto;
  }
+
  .nav-links {
    width: 100vw;
    flex-direction: column;
@@ -165,8 +172,17 @@ a {
   padding: 5px;
 }
 .discover {
-  margin-top: -160px;
+  margin-top: -140px;
 }
+@keyframes animated-button {
+  from {
+    margin-top: 100px;
+  }
+  to {
+    margin-top: -140px;
+    position: sticky;
+  }
+} 
 footer {
   position: fixed;
   bottom: 0;

@@ -194,6 +194,8 @@ h3 {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+
+    margin-bottom: 30px;
 }
 
 bold {
@@ -359,7 +361,7 @@ form {
   }
   
   input[type=submit] {
-      background-color: #6534ff;
+      /* background-color: #6534ff;
       color: white;
       padding: 12px 20px;
       border: none;
@@ -367,13 +369,26 @@ form {
       cursor: pointer;
       margin: auto;
       display: block;
-      width: 70px;
+      width: 70px; */
+      cursor: pointer;
+      border: none;
+      background-color:#6534ff;
+      padding: 15px;
+      text-align: center;
+      color: white;
+      border-radius: 20px;
+
+  transition: -webkit-linear-gradient 3s ease;
+
+  width: 30%;
+  display: block;
+  margin: auto;
   }
   
   input[type=submit]:hover {
-      background-color: #bbc4ef;
+      background-color: #62bcfa;
       transition: 0.3s ease-in;
-  }
+      }
 
   /* REPLY */
   .contact-center-box {
@@ -685,6 +700,42 @@ colors:
 */
 
 /* PAGE ABOUT */
+.cv-container {
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(assets/landscape/landscpae-4.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.discover {
+    background-color: #6534ff;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+
+transition: 0.3s ease-in;
+
+
+  display: block;
+  margin: auto;
+}
+
+  .discover:hover {
+    background-color: #a30b37;
+    /* background: -webkit-linear-gradient(#a30b37, #fccdd3); */
+  }
+
 .animatedp {
     color: white;
     font-size: 40px;
