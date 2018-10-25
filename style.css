@@ -189,7 +189,7 @@ h3 {
 
 .bg-image {
     /* background-image: linear-gradient(to left, #a30b37 , #fccdd3); */
-    background-image: url(assets/caption-image.jpg);
+    background-image: url(assets/bg-2.jpg);
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -229,7 +229,13 @@ bold {
 
 /* MACRO PHOTOGRAPHY */
 .macro-bg {
-    background-image: url(assets/macro/7.png);
+    background-image: url(assets/macro/1.png);
+}
+.nature-bg {
+    background-image: url(assets/landscape/landscape-7.jpg);
+}
+.cards-bg {
+    background-image: url(assets/illustrations/card-6.jpg);
 }
 .macro {
     width: 600px;
@@ -707,7 +713,7 @@ colors:
     justify-content: center;
     align-items: center;
 
-    background-image: url(assets/landscape/landscpae-4.jpg);
+    background-image: url(assets/caption-image.jpg);
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -823,6 +829,8 @@ transition: 0.3s ease-in;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .caption-text {
