@@ -273,6 +273,22 @@ color: #a30b37;
     color: #a30b37;
     }
 
+/* ILLUSTARTIONS */
+.illustrations-bg {
+    background-image: url(assets/illustrations/cover1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bw-bg {
+    background-image: url(assets/bw/bw-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover 
+}
 
 /* CONTACT PAGE */
 .contact-section{
