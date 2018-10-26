@@ -151,10 +151,13 @@ a:hover{
 
   @media (max-width: 375px) {
     .discover {
-      width: 70vw;
+      width: 50%;
     }
   }
   @media  (max-width: 580px){
+    .discover {
+      width: 60%;
+    }
  header {
    flex-direction: column;
    height: auto;
