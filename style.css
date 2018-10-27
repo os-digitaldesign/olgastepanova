@@ -34,6 +34,9 @@ h2 {
     bottom: 0;
     position: absolute;
   }
+.buttons-container {
+    margin-top: 30px;
+}
 
 body {
 	margin: auto;
@@ -280,25 +283,37 @@ bold {
     background-size: cover;
 }
 .buttons-container {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .next-right-icon {
     display: block;
     float: right;
     color: black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
 }
 .next-left-icon {
     display: block;
     float: left;
     color: black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
 }
 .next-right-icon:hover {
-color: #a30b37;
+    color: white;
+background-color: #a30b37;
+border-radius: 20px;
 }
 .next-left-icon:hover {
-    color: #a30b37;
-    }
+    color: white;
+background-color: #a30b37;
+border-radius: 20px;
+}
 
 /* ILLUSTARTIONS */
 .illustrations-bg {

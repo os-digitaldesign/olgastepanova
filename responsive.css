@@ -1,6 +1,6 @@
 @media  (max-width: 580px) {
     .cv-container {
-        background-position: bottom;
+        background-size: contain;
     }
 .project-container-skills {
  width: 100vw;
