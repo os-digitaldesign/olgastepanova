@@ -228,6 +228,11 @@ bold {
 }
 
 /* MACRO PHOTOGRAPHY */
+.ux-bg {
+    background-image: url(assets/atm/ATM-logo.PNG);
+    background-position: center;
+    background-size: contain;
+}
 .macro-bg {
     background-image: url(assets/macro/1.png);
 }
@@ -239,6 +244,10 @@ bold {
 }
 .macro {
     width: 600px;
+}
+
+.balck-bg {
+    background-image: url(assets/bw/bw-5.jpg);
 }
 
 .macro-photography {
@@ -696,7 +705,12 @@ a {
 
 
 
-
+.motions-bg {
+    background-image: url(assets/motions/MSF-logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /*  
 colors: 
     grey #626d71
