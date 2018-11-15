@@ -195,7 +195,6 @@ h3 {
 }
 .full-image-container {
     width: 70vw;
-    border: 2px solid orange;
     height: 100vh;
     float: left;
 }
@@ -245,6 +244,19 @@ bold {
     background-image: url(assets/atm/ATM-logo.PNG);
     background-position: center;
     background-size: contain;
+}
+.logo-branding {
+    background-image: url(assets/logo-design2/logo4.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-bg {
+    background-image: url(assets/logo-design2/logo6.png);  
+    background-size: cover;
+    background-position: center;
 }
 
 .logo-design-bg-2 {
@@ -582,7 +594,7 @@ form {
     min-height: 100vh;
     display: inline-grid;
     grid-template-columns: 2fr 3fr 2fr;
-    grid-template-columns: repeat(7);
+    grid-template-columns: repeat(8);
     grid-gap: 5px;
 }
 .projects-container-item {
@@ -623,6 +635,16 @@ a {
         opacity: 0;
 } 
 
+.logos-branding {
+    background-color: #fccdd3;
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+.logos-branding:hover {
+background-image: url(assets/logo-design2/logo8.png);
+background-position: center;
+background-size: cover; 
+}
 
 .logos-design {
     background-color: #6534ff;
@@ -909,6 +931,8 @@ em {
 .title-about {
     text-align: center;
     color: white;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .pop-up-one{
