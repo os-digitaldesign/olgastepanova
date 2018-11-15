@@ -15,9 +15,9 @@ box-sizing: border-box;
 } */
 
 /* TYPOGRAPHY */
-p {
+/* p {
     font-size: 18px;
-}
+} */
 h2 {
     font-size: 30px;
 }
@@ -46,6 +46,17 @@ body {
   height: auto;
   font-family: 'Playfair+Display';
 }
+
+.privateLogo {
+    width: 25%;
+    height: 10%;
+    padding: 5px;
+    cursor: pointer;
+}
+.privateLogo a svg:hover {
+    fill: #a30b37;
+}
+
 li {
 list-style: none;}
 
@@ -148,10 +159,12 @@ list-style: none;}
 
 .project-description-p {
     margin-left: 30px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: white;
 }
 
 .project-container-skills__development {
-    border: 2px solid blue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,7 +200,6 @@ h3 {
     height: 30%;
     display: block;
     margin: auto; 
-    margin: 0;
     margin-top: 20px;
 }
 .atm-im {
@@ -809,7 +821,7 @@ colors:
 }
 
 .discover {
-    background-color: #6534ff;
+    background-color: #a30b37;
   padding: 20px;
   text-align: center;
   color: white;
@@ -823,7 +835,7 @@ transition: 0.3s ease-in;
 }
 
   .discover:hover {
-    background-color: #a30b37;
+    background-color: #6534ff;
     /* background: -webkit-linear-gradient(#a30b37, #fccdd3); */
   }
 
@@ -860,13 +872,13 @@ transition: 0.3s ease-in;
 
 .software-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
     padding-left: 0;
-    width: 45vw;
-
-    margin-bottom: 50px;
+    width: 40vw;
+    top: 50vh;
 }
 
 .software {
@@ -879,6 +891,7 @@ transition: 0.3s ease-in;
     align-items: center;
     justify-content: left;
     margin: auto;
+    color: white;
 }
 .project-container-skills-list{
     display: flex;
@@ -926,6 +939,8 @@ transition: 0.3s ease-in;
 }
 em {
     font-size: 30px;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .title-about {

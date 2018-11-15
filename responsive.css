@@ -11,6 +11,7 @@
 }
 .software-container {
     width: 100vw;
+
 }
 .personal-description {
     padding-left: 0;
@@ -106,7 +107,7 @@ font-size: 30px;
 }
 
 .project-title {
-    text-align: left;
+    text-align: center;
     margin: auto;
     display: block
 }
