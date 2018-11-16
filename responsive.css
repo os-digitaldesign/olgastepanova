@@ -8,12 +8,27 @@
 .project-container-skills-list {
     margin-left: 0;
     width: 100vw;
+    flex-direction: column;
+    text-align: center;
 }
 .software-container {
     margin: auto;
+    flex-direction: column;
+}
+
+.software-container-icons {
+    width: 90%;
+    margin: auto;
+    flex-basis: auto;
+}
+
+.software-list {
+    text-align: center;
+    padding: 10px;
 }
 .personal-description {
     padding-left: 0;
+    text-align: center;
 }
 .project-description-box {
     width: 100vw;
