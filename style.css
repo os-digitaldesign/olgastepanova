@@ -739,7 +739,6 @@ background-size: cover;
     transition: opacity 1s ease-in-out;
 }
 
-
 .projects-visual {
     background-color: #a30b37;
     background-size: 100%;
@@ -748,12 +747,6 @@ background-size: cover;
     background-size: cover;
     grid-column: 2/4;
     /* background-color: var(--color-1); */
-}
-
-
-
-.projects-visual:hover {
-    
 }
 
 .projects-illustrations {
@@ -808,6 +801,13 @@ background-size: cover;
     background-color: #bbc4ef;
 }
 
+.projects-new:hover {
+    background-image: url(/assets/e-commerce/Mockup.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .projects-bw {
     background-color: #bbc4ef;
 }
@@ -817,10 +817,6 @@ background-size: cover;
     background-position: center;
     background-size: cover;
 }
-
-
-
-
 
 
 .motions-bg {
