@@ -248,6 +248,12 @@ bold {
 .parallax {
    
 }
+
+.projects-quotes {
+    background-color: #fccdd3;
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
 .project-visual {
     background-image: url(assets/visualdeaign/cover.jpg);
     background-size: 70%;
@@ -276,6 +282,17 @@ bold {
     background-size: cover;
 }
 
+.quotes{
+    background-image: url(assets/quotes/covr\ 1@2x.png);  
+    background-size: cover;
+    background-position: center;
+}
+
+.quotes-bg {
+    background-image: url(assets/quotes/cover\ 2@2x.png);  
+    background-size: cover;
+    background-position: center; 
+}
 .logo-bg {
     background-image: url(assets/logo-design2/logo6.png);  
     background-size: cover;
@@ -641,7 +658,7 @@ form {
     min-height: 100vh;
     display: inline-grid;
     grid-template-columns: 2fr 3fr 2fr;
-    grid-template-columns: repeat(8);
+    grid-template-columns: repeat(9);
     grid-gap: 5px;
 }
 .projects-container-item {
@@ -683,14 +700,20 @@ a {
 } 
 
 .logos-branding {
-    background-color: #fccdd3;
-    grid-column: 1/2;
+    background-color: #40caee;
+    grid-column: 2/4;
     grid-row: 6/7;
 }
 .logos-branding:hover {
 background-image: url(assets/logo-design2/logo8.png);
 background-position: center;
 background-size: cover; 
+}
+
+.projects-quotes:hover {
+    background-image: url(assets/quotes/cover\ 2@2x.png);
+    background-position: center;
+    background-size: cover;  
 }
 
 .logos-design {
