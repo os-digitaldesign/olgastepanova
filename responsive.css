@@ -3,15 +3,14 @@
         background-size: contain;
     }
 .project-container-skills {
- width: 100vw;
+    width: 90%;
 }
 .project-container-skills-list {
     margin-left: 0;
     width: 100vw;
 }
 .software-container {
-    width: 100vw;
-
+    margin: auto;
 }
 .personal-description {
     padding-left: 0;
@@ -63,9 +62,6 @@
         width: 100vw; 
         background-color:#a30b37; 
     }
-    .projects-visual {
-        
-    }
 
     .logos-design {
         background-color: #6534ff;
@@ -108,8 +104,6 @@ font-size: 30px;
 
 .project-title {
     text-align: center;
-    margin: auto;
-    display: block
 }
 
 .link-container {
