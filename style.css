@@ -183,10 +183,9 @@ h3 {
     text-align: left;
     margin-left: 20px;
 }
-
 .project-assets-container {
-    width: 100vw;
-    float: right;
+    width: 100%;
+    margin-top: 50px;
     display: flex;
     display: -webkit-box;
     display: -moz-box;
@@ -195,13 +194,15 @@ h3 {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
-.progect-assets-image{
-    width: 40vw;
-    height: 30%;
+
+.progect-assets-image {
+    margin: auto;
     display: block;
-    margin: auto; 
-    margin-top: 20px;
+    height: 30%;
+    width: 40%;
+    padding: 10px;
 }
+
 .atm-im {
     width: 30vw;
 }
