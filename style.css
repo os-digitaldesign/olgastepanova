@@ -235,6 +235,16 @@ bold {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.e-commerce {
+    background-image: url(assets/e-commerce/sunglasshut-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.e-commerce-bg {
+    background-image: url(assets/e-commerce/Mockup.jpg);   
+}
 .parallax {
    
 }
