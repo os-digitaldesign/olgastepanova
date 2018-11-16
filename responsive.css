@@ -129,5 +129,17 @@ font-size: 30px;
 
 .link-container {
     flex-flow: column;
+} 
 }
 
+@media  (max-width: 765px) {
+    .project-assets-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .progect-assets-image {
+        width: 100%;
+    }
+}
