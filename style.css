@@ -483,6 +483,7 @@ form {
     background-repeat: repeat;
     background-position: center;
     background-size: cover; 
+    background-color: transparent;
 }
 
 .projects-ux {
@@ -494,6 +495,7 @@ form {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: transparent;
 }
 
 .projects-architecture {
