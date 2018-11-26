@@ -321,7 +321,8 @@ form {
   input[type=submit]:hover {
       background-color: #62bcfa;
       transition: 0.3s ease-in;
-      }
+      text-transform: capitalize;
+}
 
   /* REPLY */
   .contact-center-box {
