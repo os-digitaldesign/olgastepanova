@@ -417,12 +417,6 @@ form {
     background-size: cover; 
 }
 
-.projects-quotes:hover {
-    background-image: url(assets/quotes/cover\ 2@2x.png);
-    background-position: center;
-    background-size: cover;  
-}
-
 .logos-design {
     background-color: #6534ff;
     grid-column: 1/4;
@@ -462,10 +456,6 @@ form {
     background-image: url(/assets/photography/landscape.jpg);
     
 }
-.projects-visual:hover {
-    background-image: url(/assets/visualdeaign/cover.jpg);
-    transition: opacity 1s ease-in-out;
-}
 
 .projects-visual {
     background-color: #a30b37;
@@ -474,6 +464,11 @@ form {
     background-position: center;
     background-size: cover;
     grid-column: 2/4;
+}
+
+.projects-visual:hover {
+    background-image: url(/assets/visualdeaign/cover.jpg);
+    transition: opacity 1s ease-in-out;
 }
 
 .projects-illustrations {
@@ -575,6 +570,13 @@ form {
     background-size: cover;
     background-position: center; 
 }
+
+.projects-quotes:hover {
+    background-image: url(assets/quotes/cover\ 2@2x.png);
+    background-position: center;
+    background-size: cover;  
+}
+
 .logo-bg {
     background-image: url(assets/logo-design2/logo6.png);  
     background-size: cover;
