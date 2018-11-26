@@ -483,7 +483,6 @@ form {
     background-repeat: repeat;
     background-position: center;
     background-size: cover; 
-    background-color: transparent;
 }
 
 .projects-ux {
@@ -591,7 +590,11 @@ form {
     background-image: url(assets/macro/1.png);
 }
 .nature-bg {
-    background-image: url(assets/landscape/landscpae-7.jpg);
+    background-image: url(assets/landscape/landscpae-5.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .cards-bg {
     background-image: url(assets/illustrations/card-6.jpg);
