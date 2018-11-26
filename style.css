@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     height: auto;
-    font-family: 'Playfair+Display';
+    font-family: 'Gilda Display';
     opacity: 1;
     animation: fadeIn 1s ease;
 }
