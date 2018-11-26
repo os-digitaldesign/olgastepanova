@@ -711,6 +711,9 @@ form {
     background-position: center;
     background-size: cover;
 }
+.visual-bg {
+    background-image: url(assets/visualdeaign/Home-page.png);
+}
 
 .discover:hover {
     background-color: #6534ff;
