@@ -483,7 +483,7 @@ form {
 }
 
 .projects-ux {
-    background-color: var(--lightblue);
+    background-color: var(--blue);
 } 
 .projects-ux:hover {
     background-image: url(/assets/atm/home.png);
@@ -507,7 +507,7 @@ form {
 }
 
 .projects-video{
-    background-color: var(--lightblue);
+    background-color: var(--blue);
 }
 .projects-video:hover{
     background-image: url(/assets/motions/MSF-logo.jpg);
