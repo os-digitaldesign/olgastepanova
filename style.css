@@ -611,12 +611,8 @@ form {
     width: 600px;
 }
 
-.balck-bg {
+.black-bg {
     background-image: url(assets/bw/bw-5.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .architecture-photography {
@@ -686,7 +682,7 @@ form {
 }
 
 .caption-background {
-    background-image: url(assets/visualdeaign/vd-bg.png);
+    /* background-image: url(assets/visualdeaign/vd-bg.png); */
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
