@@ -1,0 +1,57 @@
+/* h2 {
+  font-size: 30px;
+} */
+h2 {
+  font-size: 40px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.bold {
+  font-style: italic;
+  opacity: 50%;
+}
+
+.h-center {
+  text-align: center;
+}
+
+.mail {
+  color: black;
+}
+.conatct-detail {
+  color:#a30b37 !important;
+  font-size: 20px;
+}
+
+.request-title {
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+em {
+  font-size: 30px;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.title-about {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.project-title{
+  font-size: 36px;
+  font-style: italic;
+}
