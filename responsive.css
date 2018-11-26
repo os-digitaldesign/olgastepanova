@@ -131,6 +131,9 @@
 .link-container {
     flex-flow: column;
 } 
+.contact-animated {
+    width: 90%;
+}
 }
 
 @media  (max-width: 765px) {
@@ -142,5 +145,8 @@
     }
     .progect-assets-image {
         width: 100%;
+    }
+    .caption-text {
+        width: 70%;
     }
 }
