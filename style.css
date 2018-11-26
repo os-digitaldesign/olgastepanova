@@ -698,8 +698,6 @@ form {
     background-size: cover;
 }
 
-
-
 .discover:hover {
     background-color: #6534ff;
     /* background: -webkit-linear-gradient(#a30b37, #fccdd3); */
@@ -710,13 +708,7 @@ form {
     justify-content: center;
     align-items: center;
 }
-.text-one {
-    animation-delay: 1s;
-}
 
-.text-two {
-    animation-delay: 2s; 
-}
 
 .software-container {
     display: flex;
@@ -788,11 +780,22 @@ form {
     margin-bottom: 30px;
 }
 
+.animated-tex {
+    width: 80%;
+    margin: auto;
+}
 .animatedp {
     color: white;
     font-size: 40px;
     -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation-delay: 0.5s;
+}
+.text-one {
+    animation-delay: 1s;
+}
+.text-two {
+    animation-delay: 2s; 
 }
 
 .caption-text {

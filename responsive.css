@@ -1,16 +1,19 @@
 @media  (max-width: 580px) {
-    .cv-container {
-        background-size: contain;
-    }
+.cv-container {
+    background-size: contain;
+}
+
 .project-container-skills {
     width: 90%;
 }
+
 .project-container-skills-list {
     margin-left: 0;
     width: 100vw;
     flex-direction: column;
     text-align: center;
 }
+
 .software-container {
     margin: auto;
     flex-direction: column;
@@ -47,19 +50,20 @@
 .personal-description {
     width: 100vw;
 }
-    .project-assets-container {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        width: 100vw;
-    }
 
-    .progect-assets-image {
-        width: 100vw;
-    }
+.project-assets-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
 
-    .projects-container {
-        width: 100vw;
+.progect-assets-image {
+    width: 100vw;
+}
+
+.projects-container {
+   width: 100vw;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -68,40 +72,37 @@
    
    -webkit-flex-flow: row wrap;
    justify-content: space-around;
-    }
+}
 
-    .projects-container-item {
-        width: 50vw;
-    }
-    .projects-bw, .projects-visual, .projects-macro {
-        width: 100vw; 
-        background-color:#a30b37; 
-    }
+.projects-container-item {
+    width: 50vw;
+}
 
-    .projects-quotes {
-        background-color: #40caee;
-        width: 100vw; 
-        grid-column: 1/3;
-        grid-row: 6/7;
-    }
-    .logos-design {
-        background-color: #6534ff;
-         /* grid-column: 1/3;
-        grid-row: 1/2;
-        width: 100%; */
-    }
+.projects-bw, .projects-visual, .projects-macro {
+    width: 100vw; 
+    background-color:#a30b37; 
+}
+
+.projects-quotes {
+    background-color: #40caee;
+    width: 100vw; 
+    grid-column: 1/3;
+    grid-row: 6/7;
+}
+
+.logos-design {
+    background-color: #6534ff;
+}
 
 .logos-branding {
-        background-color: #fccdd3;
-        /* grid-column: 1/2;
-        grid-row: 7/8; */
+    background-color: #fccdd3;
 }
     
   .projects-ux {
     background-color: #fccdd3;
   }
   .projects-macro {
-      background-color: #62bcfa;
+    background-color: #62bcfa;
   }
 .projects-architecture {
     background-color: #6534ff;
@@ -116,7 +117,7 @@
     flex-direction: column;
 }
 .noanimation {
-font-size: 30px;
+    font-size: 30px;
 }
 .zero {
     font-size: 50px; 
