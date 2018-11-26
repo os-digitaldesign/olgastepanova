@@ -546,6 +546,7 @@ form {
     background-image: url(assets/atm/ATM-logo.PNG);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .logo-branding {
     background-image: url(assets/logo-design2/logo4.png);
