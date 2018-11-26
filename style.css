@@ -397,6 +397,7 @@ form {
     color: white;
     font-size: 28px;
     min-height: 350px;
+    text-align: center;
 }
 
 .projects-container-item:hover .projects-item-title{
@@ -576,7 +577,7 @@ form {
 }
 
 .logo-bg {
-    background-image: url(assets/logo-design2/logo6.png);  
+    background-image: url(assets/logo-design2/logo5-1.png);  
     background-size: cover;
     background-position: center;
 }
