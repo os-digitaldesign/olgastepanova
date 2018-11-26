@@ -602,6 +602,10 @@ form {
 }
 .cards-bg {
     background-image: url(assets/illustrations/card-6.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .macro {
     width: 600px;
@@ -609,6 +613,10 @@ form {
 
 .balck-bg {
     background-image: url(assets/bw/bw-5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .architecture-photography {
