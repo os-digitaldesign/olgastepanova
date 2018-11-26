@@ -592,9 +592,10 @@ form {
 .nature-bg {
     background-image: url(assets/landscape/landscpae-5.jpg);
     background-attachment: fixed;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 .cards-bg {
     background-image: url(assets/illustrations/card-6.jpg);
