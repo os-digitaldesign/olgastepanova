@@ -126,7 +126,7 @@ list-style: none;}
     margin-left: 30px;
     line-height: 30px;
     letter-spacing: 1px;
-    color: white;
+    color: black;
 }
 
 .project-container-skills__development {
@@ -546,9 +546,10 @@ form {
 }
 .ux-bg {
     background-image: url(assets/atm/ATM-logo.PNG);
+    background-attachment: fixed;
     background-position: center;
-    background-size: contain;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 .logo-branding {
     background-image: url(assets/logo-design2/logo4.png);
@@ -735,7 +736,7 @@ form {
     padding-left: 0;
     width: 40vw;
     top: 50vh;
-    color: white;
+    color: black;
 }
 
 .software-container-icons {
@@ -765,6 +766,7 @@ form {
     padding: 10px;
     width: 22vw;
     padding-left: 0;
+    color: black;
 }
 
 
@@ -777,7 +779,7 @@ form {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 .personal-description {
@@ -852,20 +854,24 @@ form {
 
 
 /* POP UP SECTION */
-.pop-up-one{
-    background-color: var(--lightpink);
+.pop-up-one h3{
+   color: var(--lightpink);
+   border-bottom: 1px solid var(--lightpink);
 }
 
-.pop-up-two{
-    background-color: var(--purple);
+.pop-up-two h3{
+    color: var(--purple);
+    border-bottom: 1px solid var(--purple);
 }
 
-.pop-up-three{
-    background-color: var(--lightblue);
+.pop-up-three h3{
+    color: var(--lightblue);
+    border-bottom: 1px solid var(--lightblue);
 }
 
-.pop-up-four{
-    background-color: var(--blue);
+.pop-up-four h3{
+    color: var(--blue);
+    border-bottom: 1px solid var(--blue);
 }
 
 .personal {
