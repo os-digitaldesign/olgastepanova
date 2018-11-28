@@ -83,6 +83,11 @@ span {
         transition: 0.5s;
         padding-top: 60px;
         text-align:center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     
     .sidenav a {
@@ -114,6 +119,7 @@ span {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
         margin: auto;
         height: 100px;
         margin-top: 30px;
@@ -131,6 +137,25 @@ span {
       padding-bottom: 20px;
       margin: auto;
   }
+
+  .privateLogo {
+    width: 25%;
+    height: 10%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.privateLogo a svg:hover {
+    fill: var(--darkred);
+}
+
+#index-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 
 

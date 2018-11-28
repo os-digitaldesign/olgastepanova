@@ -239,11 +239,12 @@ list-style: none;}
     font-size: 18px;
     letter-spacing: 2.2px;
     font-style: italic;
+    border-radius: 20px;
 }
 .link-container-text:hover {
     color: white;
     background-color: var(--darkred);
-    border-radius: 20px;
+
 }
 
 /* CONTACT PAGE */
@@ -931,6 +932,10 @@ form {
   .landscape-photography {
       background-image: url(assets/landscape/landscpae-1.jpg);
   }
+
+.personal-slogan {
+    height: 400px !important;
+}
 
 
 /* ANIMATION */
